@@ -1,0 +1,393 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* :root {
+    font-family: ;
+} */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* HEADER */
+/* ---------------------------------------------------------------- */
+
+.tele {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    /* justify-content: space-evenly */
+}
+
+.tele2 p {
+    margin-top: 30px;
+    width: 449px;
+    height: 90px;
+    font-family: "Roboto";
+}
+
+.tele img {
+    width: 679px;
+    height: 453px;
+}
+
+h1 {
+    font-size: 50px;
+    width: 449px;
+    font-family: "Roboto";
+}
+
+.azul {
+    color: #009EE0;
+}
+
+/* çççççççççççççççççççççççççççççççççççççççç */
+/* FORMULARIO 1 */
+/* ñññññññññññññññññññññññññññññññññññññ */
+.form1 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.news {
+    display: flex;
+}
+
+.news input {
+    width: 284px;
+    height: 36px;
+    background-color: #F1F1F1;
+}
+
+.alta button {
+    width: 143px;
+    height: 42px;
+    background-color: white;
+    border-color: #009EE0;
+    color: #009EE0;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.condiciones {
+    display: flex;
+    margin-top: 20px;
+}
+
+.condiciones input {
+    width: 22px;
+    height: 22px;
+}
+
+.condiciones label {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: "Roboto";
+}
+
+/* ppppppppppppppppppppppppppppppppppppppppp */
+/* SECTION */
+
+/* PRIMER ARTÍCULO */
+h2 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: "Roboto";
+}
+
+
+
+.fest_logos img {
+    width: 90px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+}
+
+.fest_logos p {
+    font-family: "Roboto";
+}
+
+/* .fest_lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+
+.fest_lista li {
+    font-family: "Roboto";
+}
+
+.fest_lista .taules {
+    margin-left: 32px;
+}
+.proj {
+    margin-left: 22px;
+}
+
+.pro {
+    margin-right: 40px;
+} */
+
+/* .fest_logos p {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  
+} */
+
+/* SEGUNDO ARTÍCULO */
+.luxe {
+    display: flex;
+    justify-content: center;
+}
+
+.convi {
+    display: flex;
+    justify-content: center;
+}
+
+.convi p {
+    text-align: center;
+    width: 547px;
+    height: 52px;
+    margin-top: 20px;
+    font-family: "Roboto";
+}
+
+/* CARD */
+/* .phoebe img {
+    width: 350px;
+    height: 247px;
+} */
+
+.series h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.series p {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: "Roboto";
+}
+
+.streaming {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.streaming button {
+    width: 119px;
+    height: 46px;
+    background-color: #009EE0;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.streaming button:hover {
+    background-color: #336BAD;
+}
+
+.titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.titles img {
+    width: 261px;
+    height: 391px;
+}
+
+.ocultar {
+    display: none;
+}
+
+/* .series1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+} 
+
+.series1 img {
+    width: 261px;
+    height: 391px;
+}
+
+.series2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+} 
+
+.series2 img {
+    width: 261px;
+    height: 391px;
+} */
+
+/* ñññññññññññññññññññññññññññññññññññññ */
+/* 2o FORMULARIO */
+
+.form2 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.post_mapa1 {
+    display: flex;
+}
+
+.post_mapa1 input {
+    width: 284px;
+    height: 36px;
+    background-color: #F1F1F1;
+}
+
+.alta button {
+    width: 143px;
+    height: 42px;
+    background-color: white;
+    border-color: #009EE0;
+    color: #009EE0;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.condiciones {
+    display: flex;
+    margin-top: 20px;
+}
+
+.condiciones input {
+    width: 22px;
+    height: 22px;
+}
+
+.condiciones label {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: "Roboto";
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+}
+.form4 {
+    display: flex;
+}
+/* .info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info1 input {
+    width: 540px;
+    height: 36px;
+    background-color: #F1F1F1;
+}
+
+.info1 button {
+    width: 132px;
+    height: 38px;
+    background-color: #009EE0;
+    color: white;
+    border-radius: 10px;
+}
+
+.info2 input {
+    width: 22px;
+    height: 22px;
+}
+
+.info2 {
+    margin-top: 20px;
+    margin-right: 390px;
+    font-family: "Roboto";
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+}
+
+.info a:hover {
+    text-decoration: underline;
+} */
+
+/* MAPA */
+.mapa {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.mapa1 {
+    width: 636px;
+    height: 278px;
+}
+
+.mapa3 {
+    font-family: "Roboto";
+    list-style: none;
+}
+.data {
+    font-size: 36px;
+}
+.filmoteca {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.mapa4 {
+    font-family: "Roboto";
+    list-style: none;
+}
+.monroe {
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+

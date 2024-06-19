@@ -1,0 +1,501 @@
+/* PANTAÑÑA PEQUEÑA */
+@media screen and (max-width: 360px) {
+    /* LOGO */
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  } 
+  .logo img {
+    width: 402px;
+    height: 128px;
+  } 
+  
+  /* CABECERA */
+  .tele {
+    display: flex;
+    flex-direction: column;
+  }
+  .tele img {
+    width: 360px;
+    height: 240px;
+  }
+  h1 {
+    width: 312px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  .tele2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tele2 p {
+    width: 312px;
+  }
+
+  /* FORM 1 */
+  .form1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .news {
+    display: flex;
+    justify-content: center;
+  }
+  .news input {
+    background-color: #F1F1F1;
+  } 
+  .barra1 {
+    width: 312px;
+    height: 39px;
+  }
+  .condiciones {
+    display: flex;
+    justify-content: center;
+  }
+  .condiciones label {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .condiciones a {
+    text-decoration: none;
+    color: black;
+  }
+  .condiciones a:hover {
+    text-decoration: underline;
+  }
+  .alta button {
+    width: 190px;
+    height: 42px;
+  }
+  .alta {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ACTIVIDADES DEL FESTIVAL */
+  .fest {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .fest_logos {
+    display: flex;
+    flex-direction: column;
+  }
+  .cafe_video {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .comm_card {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .video img {
+    margin-left: 30px;
+  }
+  .taules img {
+    margin-left: 10px;
+  }
+  .comm img {
+    margin-left: 40px;
+  }
+  .comm p {
+    width: 180px;
+    text-align: center;
+  }
+  .add img {
+    margin-right: 40px;
+  }
+  /* .taules {
+    margin-left: 50px;
+  }
+  .taules p {
+  }
+
+  .video {
+    margin-left: 60px;
+  }
+  .video p {
+    margin-right: 20px;
+  } */
+/* ________________________________________________________ */
+  /* JSON */
+
+  .convi p {
+    width: 312px;
+    text-align: start;
+    margin-bottom: 40px;
+  }
+
+  /* SERIES */
+
+  .series {
+    display: none;
+  }
+  .titles {
+    display: none;
+  }
+
+  /* MAPA */
+
+  .info_mapa {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .mapa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mapa1 img {
+    width: 360px;
+  }
+
+  .mapa3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mapa3 .data {
+    display: none;
+  }
+
+  .mapa3 .data_q {
+    font-family: "Roboto";
+    list-style: none;
+    font-size: 36px;
+  }
+  .mapa4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* FORMULARIO 2 */
+  .info_main h2 {
+    width: 200px;
+    margin-left: 80px;
+    text-align: center;
+  }
+
+  .info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info1 input {
+    width: 312px;
+  }
+  
+  .form4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  /* FOOTER */
+
+  /* FIRST */
+  /* .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    */
+
+  .damm {
+    width: 157px;
+    height: 100px;
+  }
+  .vichy {
+    width: 250px;
+    height: 100px;
+  }
+
+  /* SECOND */
+   /* .second {
+    display: flex;
+    flex-direction: column;
+  } */
+  .hbo {
+    width: 143px;
+    height: 102px;
+  }
+  .netflix {
+    width: 158px;
+    height: 67px;
+  }
+  .rtve {
+    width: 116px;
+    height: 60px;
+  }
+  .catfilm {
+    width: 119px;
+    height: 44px;
+  }
+  .time {
+    width: 170px;
+    height: 91px;
+    margin-right: 40px;
+  } 
+
+  /* THIRD */
+   /* .third {
+    display: flex;
+    flex-direction: column;
+  } */
+  .aju {
+    width: 119px;
+    height: 40px;
+    margin-right: 30px;
+  }
+  .btv {
+    width: 118px;
+    height: 32px;
+  }
+  .cff {
+    width: 129px;
+    height: 30px;
+  }
+  .escac {
+    width: 92px;
+    height: 68px;
+  }
+  .cccb {
+    width: 131px;
+    height: 20px;
+  }
+
+  .dam_vi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+  }
+
+  /* .patro2 {
+    display: flex;
+    justify-content: center;
+  }  */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+}
+
+
+
+/* PANTALLA GRANDE */
+@media screen  and (min-width: 1200px) {
+    .fest_logos {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    
+    .cafe_video {
+        display: flex;
+        justify-content: space-between;
+        gap: 170px;
+    }
+    .taules {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px; 
+    }
+    .video img {
+        margin-left: 20px;
+    }
+    .add {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .comm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .comm p {
+        margin-right: 40px;
+    }
+    .comm img {
+        margin-left: 25px;
+    }
+    
+    .comm_card {
+        display: flex;
+        gap: 170px;
+    }
+
+    .mapa3 .data_q {
+        display: none;
+    }
+
+    /* FOOTER */
+
+
+.underline_main {
+  display: flex;
+  justify-content: center;
+}
+.underline {
+  border-bottom: rgb(161, 161, 161) solid;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+}
+
+.underline img {
+  width: 1100px;
+}
+.dam_vi  {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  gap: 30px;
+  margin: 0 auto;
+
+}
+
+/* .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* FIRST */
+/* 
+.first {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+} */
+
+.damm {
+  width: 157px;
+  height: 100px;
+}
+
+.vichy {
+  width: 250px;
+  height: 100px;
+}
+
+/* SECOND */
+
+/* .second {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+} */
+.hbo {
+  width: 147px;
+  height: 105px;
+}
+
+.netflix {
+  width: 202px;
+  height: 85px;
+  margin-bottom: 30px;
+}
+
+.rtve {
+  width: 139px;
+  height: 72px;
+}
+
+.catfilm {
+  height: 60px;
+  width: 160px;
+  margin-left: 30px;
+}
+
+.time {
+  width: 230px;
+  height: 84px;
+  z-index: -5;
+  margin-right: 30px;
+} 
+
+/* THIRD */
+
+/* .third {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+} */
+
+.aju {
+  width: 118px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.btv {
+  width: 147px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.cff {
+  width: 174px;
+  height: 40px;
+}
+
+.escac {
+  width: 92px;
+  height: 68px;
+  margin-right: 30px;
+}
+
+.cccb {
+  width: 263px;
+  height: 40px;
+  margin-bottom: 30px;
+} 
+
+  }
